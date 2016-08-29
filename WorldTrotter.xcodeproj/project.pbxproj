@@ -13,6 +13,7 @@
 		E85A0E131D70539000006971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85A0E111D70539000006971 /* LaunchScreen.storyboard */; };
 		E85A0E1B1D7058D500006971 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A0E1A1D7058D500006971 /* ConversionViewController.swift */; };
 		E85A0E1D1D74498300006971 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A0E1C1D74498300006971 /* MapKit.framework */; };
+		E85A0E1F1D744FC500006971 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A0E1E1D744FC500006971 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E85A0E141D70539000006971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A0E1A1D7058D500006971 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		E85A0E1C1D74498300006971 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E85A0E1E1D744FC500006971 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E85A0E1A1D7058D500006971 /* ConversionViewController.swift */,
 				E85A0E081D70539000006971 /* AppDelegate.swift */,
 				E85A0E0C1D70539000006971 /* Main.storyboard */,
+				E85A0E1E1D744FC500006971 /* MapViewController.swift */,
 				E85A0E0F1D70539000006971 /* Assets.xcassets */,
 				E85A0E111D70539000006971 /* LaunchScreen.storyboard */,
 				E85A0E141D70539000006971 /* Info.plist */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85A0E1B1D7058D500006971 /* ConversionViewController.swift in Sources */,
+				E85A0E1F1D744FC500006971 /* MapViewController.swift in Sources */,
 				E85A0E091D70539000006971 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
